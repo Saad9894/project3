@@ -1,0 +1,703 @@
+@media only screen and (min-width:992px) and (max-width:1360px) {
+    .section,
+    .footer {
+        height: auto;
+        width: 100%;
+        margin: auto;
+    }
+
+    header {
+        width: 99%;
+    }
+
+    ul.navigation {
+        width: 97%;
+    }
+
+    img.slide1 {
+        height: 91vw;
+    }
+
+    .caption {
+        height: 62vw;
+    }
+
+    .fig {
+        width: 91%;
+    }
+
+    .item,
+    .item2,
+    .item3,
+    .item4,
+    .item5,
+    .item6 {
+        width: 38%;
+        height: 24vw;
+    }
+
+    .menu {
+        width: 44%;
+    }
+
+    .shop {
+        height: 12vw;
+        line-height: 5vw;
+    }
+
+
+    .read {
+        width: 81%;
+    }
+
+    .abouts {
+        width: 47%;
+    }
+
+    .blog {
+        width: 62%;
+    }
+
+    p.history {
+        font-size: 11px;
+    }
+
+    .img img {
+        width: 452px;
+    }
+
+    .blog {
+        height: 10vw;
+        width: 94%;
+    }
+
+    .imgs img {
+        width: 291px;
+    }
+
+    .abouts1,
+    .abouts2,
+    .abouts3 {
+        width: 92%;
+    }
+
+    .div .reads {
+        width: 473px;
+    }
+
+    .banner1,
+    .banner2,
+    .banner3 {
+        height: 22vw;
+    }
+
+    .div {
+        width: 52%;
+    }
+
+}
+
+@media only screen and (min-width:769px) and (max-width:991px) {
+    header {
+        display: block;
+        width: 100%;
+    }
+
+    .navigation {
+        height: 0;
+        overflow: hidden;
+        flex-direction: column;
+        align-items: center;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .logo {
+        margin: 4%;
+        display: flex;
+        justify-content: space-between;
+        width: 73%;
+    }
+
+    .hamburger-icon {
+        display: block;
+    }
+
+    .fa-x {
+        display: none;
+    }
+    header:has(.hamburger-icon input[type="checkbox"]:checked) .navigation {
+        background: black;
+        margin-top: 0rem;
+        height: 291px;
+    }
+
+    header:has(.hamburger-icon input[type="checkbox"]:checked) .fa-bars {
+        display: none;
+    }
+
+    header:has(.hamburger-icon input[type="checkbox"]:checked) .fa-x {
+        display: inline-block;
+    }
+
+    .hamburger-icon .fa-bars, .hamburger-icon .fa-x {
+        color: white;
+        font-size: 1rem;
+        cursor: pointer;
+        float: left;
+        width: 112%;
+    }
+
+    .text-box {
+        width: 93%;
+    }
+
+    .banner1,
+    .banner2,
+    .banner3 {
+        height: 25vw;
+    }
+
+    .about {
+        height: 336px;
+        width: 429px;
+    }
+    p.companys {
+        font-size: 11px;
+        width: 101%;
+    }
+
+    .abouts {
+        box-shadow: 0 20px 35px #aea2d024;
+        height: 255px;
+        width: 364px;
+        /* background-color: #202223;
+        position: absolute;
+        left: 50%;
+        padding: 1%;
+        top: 19%; */
+    }
+
+    .read {
+        height: 440px;
+        width: 382px;
+        color: antiquewhite;
+    }
+
+    .item,
+    .item2,
+    .item3,
+    .item4,
+    .item5,
+    .item6 {
+        width: 39%;
+        height: 30vw;
+    }
+
+    .title {
+        height: 7vw;
+        line-height: 6vw;
+        width: 64%;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .scrollbar {
+        height: 44vw;
+    }
+
+    p.design {
+        font-size: 12px;
+    }
+
+    .subtitle {
+        width: 62%;
+    }
+
+    .text {
+        /* float: left; */
+        /* text-align: center; */
+        /* text-align: center; */
+        width: 99%;
+        margin: auto;
+    }
+
+    .menu {
+        height: 45vw;
+        width: 90%;
+    }
+
+    .project {
+        height: 49vw;
+    }
+
+    .menu img {
+        height: 38vw;
+    }
+
+    .img img {
+        width: 359px;
+        height: 26vw;
+        margin: 10%;
+    }
+
+    .div {
+        left: 37%;
+        width: 57%;
+        height: 29vw;
+    }
+
+    .div .abouts1 {
+        width: 93%;
+    }
+    .div .abouts2 {
+        width: 101%;
+    }
+
+    .abouts3 {
+        width: 100%;
+    }
+    section.section1 {
+        height: 156vw;
+    }
+    .social-icon {
+        height: 1vw;
+        position: absolute;
+        top: 64%;
+    }
+    .shop {
+        height: 13vw;
+    }
+
+
+    section,
+    footer {
+        width: 100%;
+    }
+
+    p.history {
+        font-size: 11px;
+    }
+
+    img.slide1 {
+        height: 140%;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:768px) {
+    header {
+        display: block;
+        width: 100%;
+    }
+
+    .navigation {
+        height: 0;
+        overflow: hidden;
+        flex-direction: column;
+        align-items: center;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .logo {
+        margin: 4%;
+        display: flex;
+        justify-content: space-between;
+        width: 73%;
+    }
+
+    .hamburger-icon {
+        display: block;
+    }
+
+    .fa-x {
+        display: none;
+    }
+    header:has(.hamburger-icon input[type="checkbox"]:checked) .navigation {
+        background: black;
+        margin-top: 0rem;
+        height: 291px;
+    }
+
+    header:has(.hamburger-icon input[type="checkbox"]:checked) .fa-bars {
+        display: none;
+    }
+
+    header:has(.hamburger-icon input[type="checkbox"]:checked) .fa-x {
+        display: inline-block;
+    }
+
+    .hamburger-icon .fa-bars, .hamburger-icon .fa-x {
+        color: white;
+        font-size: 1rem;
+        cursor: pointer;
+        float: left;
+        width: 112%;
+    }
+
+    .banner1, .banner2, .banner3 {
+        height: 36vw;
+    }
+    img.slide1 {
+        height: 128vw;
+    }
+    .volume {
+        height: 87vw;
+        width: 88%;
+    }
+
+    .abouts {
+        width: 158px;
+    }
+    .about {
+        height: 387px;
+        width: 507px;
+        background-color: #202223;
+        position: absolute;
+        left: 5%;
+        padding: 1%;
+        top: 45%;
+    }
+    .title {
+        font-size: 28px;
+        /* line-height: 1vw; */
+        height: 9vw;
+    }
+    .item, .item2, .item3, .item4, .item5, .item6 {
+        height: 35vw;
+        width: 35%;
+    }
+    .item:hover, .item2:hover, .item3:hover, .item4:hover, .item5:hover, .item6:hover {
+        width: 35%;
+    }
+    .scrollbar {
+        height: 60vw;
+        width: 100%;
+    }
+    p.design {
+        font-size: 8px;
+    }
+    h5 {
+        font-size: 12px;
+    }
+    .menu img {
+        width: 100%;
+        height: 39vw;
+    }
+ 
+    span, a, a:hover {
+        height: 6vw;
+    }
+    .project {
+        height: 70vw;
+    }
+
+    .menu {
+        height: 61vw;
+        width: 40%;
+    }
+    .shop {
+        height: 12vw;
+        width: 90%;
+    }
+    .tittle {
+        font-size: 12px;
+    }
+  
+    .abouts {
+        height: 382px;
+        left: 7%;
+        top: 45%;
+        width: 86vw;
+    }
+    .div {
+        height: 50vw;
+        width: 83%;
+        bottom: 16%;
+        position: absolute;
+        left: 10%;
+    }
+    .img img {
+        width: 559px;
+        height: 48vw;
+        margin: 8%;
+    }
+    .blog {
+        height: 25vw;
+    }
+    p.history {
+        font-size: 9px;
+    }
+    .read {
+        height: 432px;
+        line-height: 10vw;
+        width: 486px;
+    }
+    .dark {
+        height: 72vw;
+        width: 762px;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    h6{
+        font-size: 8px;
+    }
+    .caption {
+        height: 182vw;
+    }
+  
+    .div .reads {
+        height: 267px;
+        width: 445px;
+    }
+    .abouts1,.abouts2,.abouts3{
+        width: 100%;
+    }
+    .companys {
+        height: 5vw;
+        font-size: 13px;
+        width: 99%;
+    }
+    .imgs img {
+        width: 305px;
+        height: 64vw;
+        margin: 16%;
+    }
+    .blogs {
+        height: 19vw;
+    }
+    .image img {
+        height: 114vw;
+    }
+    .rest {
+        font-size: 13px;
+    }
+    .west {
+        font-size: 12px;
+    }
+    .right {
+        font-size: 10px;
+        width: 65%;
+    }
+
+  
+
+
+
+
+
+
+}
+
+@media only screen and (min-width:300px)and (max-width:575px) {
+    header {
+        display: block;
+        width: 100%;
+    }
+
+    .navigation {
+        height: 0;
+        overflow: hidden;
+        flex-direction: column;
+        align-items: center;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .logo {
+        margin: 22%;
+        display: flex;
+        justify-content: space-between;
+        width: 107%;
+    }
+
+    .hamburger-icon {
+        display: block;
+    }
+
+    .fa-x {
+        display: none;
+    }
+    header:has(.hamburger-icon input[type="checkbox"]:checked) .navigation {
+        background: black;
+        margin-top: 0rem;
+        height: 291px;
+    }
+
+    header:has(.hamburger-icon input[type="checkbox"]:checked) .fa-bars {
+        display: none;
+    }
+
+    header:has(.hamburger-icon input[type="checkbox"]:checked) .fa-x {
+        display: inline-block;
+    }
+
+    .hamburger-icon .fa-bars, .hamburger-icon .fa-x {
+        color: white;
+        font-size: 1rem;
+        cursor: pointer;
+        float: left;
+        width: 112%;
+    }
+
+    .banner1, .banner2, .banner3 {
+        height: 36vw;
+    }
+    img.slide1 {
+        height: 89vw;
+    }
+    .volume {
+        height: 87vw;
+        width: 88%;
+    }
+
+    .abouts {
+        width: 158px;
+    }
+    .about {
+        height: 295px;
+        width: 327px;
+        background-color: #202223;
+        position: absolute;
+        left: 5%;
+        padding: 1%;
+        top: 45%;
+    }
+    .number {
+        font-size: 58px;
+        line-height: 56px;
+    }
+    .title {
+        font-size: 19px;
+        line-height: 1vw;
+        height: 12vw;
+    }
+    .item, .item2, .item3, .item4, .item5, .item6 {
+        height: 60vw;
+        width: 76%;
+    }
+    .item:hover, .item2:hover, .item3:hover, .item4:hover, .item5:hover, .item6:hover {
+        width: 76%;
+    }
+    .scrollbar {
+    height: 86vw;
+    }
+    p.design {
+        font-size: 11px;
+    }
+    h5 {
+        font-size: 17px;
+    }
+    .subtitle {
+        height: 16vw;
+    }
+    span, a, a:hover {
+        height: 6vw;
+    }
+    .project {
+        height: 70vw;
+    }
+    .menu img {
+        width: 100%;
+        height: 55vw;
+    }
+    .menu {
+        height: 61vw;
+        width: 80%;
+    }
+    .shop {
+        height: 18vw;
+    }
+    .tittle {
+        font-size: 12px;
+    }
+    p.company {
+        font-size: 9px;
+    }
+    .social-icon {
+        height: 1vw;
+        position: absolute;
+        gap: 34px;
+        display: flex;
+        top: 47%;
+        font-size: 38px;
+    }
+    .abouts {
+        height: 239px;
+        left: 7%;
+        top: 45%;
+        width: 86vw;
+    }
+    .div {
+        height: 50vw;
+        width: 83%;
+        bottom: 14%;
+        position: absolute;
+        left: 10%;
+    }
+    .img img {
+        width: 337px;
+        height: 75vw;
+        margin: 8%;
+    }
+    .blog {
+        height: 25vw;
+    }
+    p.history {
+        font-size: 9px;
+    }
+    .read {
+        height: 432px;
+        line-height: 10vw;
+        width: 310px;
+    }
+ 
+    .dark {
+        height: 72vw;
+        width: 762px;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    h6{
+        font-size: 8px;
+    }
+    .caption {
+        height: 182vw;
+    }
+  
+    .div .reads {
+        height: 267px;
+        width: 240px;
+    }
+    .abouts1,.abouts2,.abouts3{
+        width: 100%;
+    }
+    .companys {
+        font-size: 6px;
+        width: 99%;
+    }
+    .imgs img {
+        width: 305px;
+        height: 64vw;
+        margin: 16%;
+    }
+    .blogs {
+        height: 19vw;
+    }
+    .image img {
+        height: 114vw;
+    }
+    .rest {
+        font-size: 13px;
+    }
+    .west {
+        font-size: 12px;
+    }
+    .right {
+        font-size: 10px;
+        width: 65%;
+    }
+
+  
+
+
+}
