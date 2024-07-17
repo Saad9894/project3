@@ -257,7 +257,6 @@ footer {
     position: relative;
 }
 .text {
-    /* text-align: center; */
     margin: auto;
     width: 89%;
 }
@@ -664,11 +663,9 @@ h5 {
 .div .reads{
     height: 267px;
     display: flex;
-    /* float:left; */
     width: 523px;
     background: rgb(25, 26, 26);
     margin: 2rem;
-    /* border: 2px solid linear-gradient(0deg, rgba(212, 39, 39, 0.9), ); */
     display: inline-block;
 }
 .div .abouts2{
